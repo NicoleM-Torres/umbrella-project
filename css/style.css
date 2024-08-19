@@ -1,0 +1,179 @@
+/* #region  MAIN*/
+
+/* #endregion */
+
+/* #region spaceHolders Display */
+@media (min-width: 992px) {
+  .spaceHolder {
+    display: block;
+  }
+  .space {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .spaceHolder {
+    display: none;
+  }
+  .space {
+    display: block;
+  }
+}
+/* #endregion */
+
+/* #region  HEADER*/
+
+@media (min-width: 992px) {
+  .navMenu {
+    display: block;
+  }
+  .navMenuS {
+    display: none;
+  }
+  /* #region Large screen menu */
+
+  .navMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navMenu div {
+    margin: 0 10px;
+  }
+
+  .navMenu a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+  }
+
+  .navMenu a:hover {
+    color: #007bff;
+  }
+  /* #endregion */
+}
+
+@media (max-width: 991px) {
+  .navMenu {
+    display: none;
+  }
+  .navMenuS {
+    display: block;
+  }
+
+  /* #region small screen menu */
+  .navMenuS {
+    place-content: center;
+    position: relative;
+  }
+
+  /* Button styling */
+  .dropdown button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  /* Change button background color on hover */
+  .dropdown button:hover {
+    background-color: greenyellow;
+  }
+
+  /* Dropdown menu styling */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Place it directly below the button */
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Dropdown item styling */
+  .dropdown-item {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  /* Change item background on hover */
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: greenyellow;
+  }
+
+  .dropdown-item:active {
+    background-color: #e2e6ea;
+  }
+  /* #endregion */
+}
+.pageTitle {
+  align-content: center;
+}
+.pageTitle h1 {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.graphic {
+  color: greenyellow;
+}
+.pageTitle h4 {
+  font-size: 8px;
+  margin-bottom: 0;
+}
+
+.imgCol {
+  text-align: -webkit-right;
+}
+.navDivider {
+  text-align: -webkit-center;
+}
+.greenBar {
+  height: 20px;
+  width: 30%;
+  background-color: greenyellow;
+  align-content: center;
+}
+.whiteBar {
+  height: 3px;
+  width: 90%;
+  border-radius: 25rem;
+  background-color: rgb(255, 255, 255);
+}
+
+/* #endregion */
+
+/* #region  HOMEPAGE*/
+
+/* #endregion */
+
+/* #region  ABOUT US*/
+
+/* #endregion */
+
+/* #region  NEWS*/
+.articlesRow {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.searchCol {
+  margin-left: 15px;
+}
+
+/* #endregion */
+
+/* #region  FOOTER*/
+
+/* #endregion */
