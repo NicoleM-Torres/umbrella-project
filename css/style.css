@@ -133,7 +133,7 @@
   margin-bottom: 0;
 }
 
-.imgCol {
+.navImgCol {
   text-align: -webkit-right;
 }
 .navDivider {
@@ -155,6 +155,68 @@
 /* #endregion */
 
 /* #region  HOMEPAGE*/
+
+.topBanner {
+  background-color: greenyellow;
+  text-align: center;
+}
+
+.topBannerMsg {
+  align-content: center;
+}
+.topBannerMsg h4 {
+  font-size: 30px;
+  font-weight: 100px;
+  color: #ffffff;
+}
+
+.infoImgCol h4 {
+  text-align: -webkit-center;
+}
+
+.infoImgCol img {
+  width: 200px;
+}
+
+.infoImgCol {
+  text-align-last: center;
+}
+
+.portafolioInfo {
+  text-align: -WEBKIT-CENTER;
+}
+
+.portafolioImg {
+  text-align: -webkit-center;
+}
+.portafolioInfo p {
+  text-align: initial;
+}
+
+.advertiserRow {
+  text-align: center;
+}
+
+.socialMediaImg, .contactUsImg {
+    width: 30px;
+}
+
+
+@media (min-width: 992px) {
+    .newsSignUp button {
+            float: right;
+    }
+  
+}
+@media (max-width: 991px) {
+  .contactRow {
+    text-align-last: center;
+  }
+}
+
+.subscribe  {
+ margin: 10px;
+}
 
 /* #endregion */
 
