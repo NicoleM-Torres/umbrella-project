@@ -13,3 +13,19 @@ document.addEventListener("DOMContentLoaded", () => {
     menu.classList.toggle("show");
   });
 });
+
+let serviceHeading = document.getElementById("serviceAmazing");
+console.group(serviceHeading)
+
+let serviceElementsBox = document.getElementsByClassName("serviceElementsBox");
+console.log(serviceElementsBox);
+
+let serviceSupport = document.querySelector(".infoImgCol h4");
+console.log(serviceSupport);
+
+let serviceColumns = document.querySelectorAll("serviceElementsBox")
+console.log(serviceColumns)
+
+serviceHeading.innerHTML ="AMAZING"
+
+serviceSupport.style
