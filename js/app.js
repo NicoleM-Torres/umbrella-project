@@ -14,18 +14,48 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-let serviceHeading = document.getElementById("serviceAmazing");
-console.group(serviceHeading)
+// let serviceHeading = document.getElementById("serviceAmazing");
+// console.group(serviceHeading)
 
-let serviceElementsBox = document.getElementsByClassName("serviceElementsBox");
-console.log(serviceElementsBox);
+// let serviceElementsBox = document.getElementsByClassName("serviceElementsBox");
+// console.log(serviceElementsBox);
 
-let serviceSupport = document.querySelector(".infoImgCol h4");
-console.log(serviceSupport);
+// let serviceSupport = document.querySelector(".infoImgCol h4");
+// console.log(serviceSupport);
 
-let serviceColumns = document.querySelectorAll("serviceElementsBox")
-console.log(serviceColumns)
+// let serviceColumns = document.querySelectorAll("serviceElementsBox")
+// console.log(serviceColumns)
 
-serviceHeading.innerHTML ="AMAZING"
+// serviceHeading.innerHTML ="AMAZING"
 
-serviceSupport.style
+// serviceSupport.style
+
+// #region NEWSLETTER SING UP
+
+let subscribe_arr = [];
+
+let personInfo = {
+  name: "",
+  email: "",
+};
+
+let subscribeButton = document.querySelector(".subscribe input");
+
+subscribeButton.addEventListener("click", grabNewsLetterInfo);
+
+function grabNewsLetterInfo() {
+  let inputName = document.querySelector("#name");
+  let inputEmail = document.querySelector("#email");
+
+  personInfo.name = inputName;
+  personInfo.email = inputEmail;
+  console.log(personInfo);
+
+  subscribe_arr.push(personInfo);
+  console.log(subscribe_arr);
+
+  inputName = "";
+  inputEmail = "";
+}
+
+// #endregion
